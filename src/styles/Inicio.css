@@ -116,3 +116,46 @@
     border-bottom: none;
   }
   
+
+/* Centrar solo los textos de Justificación e Introducción */
+.justificacion-introduccion {
+    text-align: center; /* Centra todo el contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.justificacion-introduccion h2 {
+    text-align: center; /* Centra los títulos */
+    width: 100%;
+}
+
+.justificacion-introduccion p {
+    text-align: center; /* Centra los párrafos */
+    max-width: 60%; /* Reduce el ancho para mayor enfoque */
+    margin: 0 auto; /* Centra horizontalmente */
+    font-size: 1.2rem; /* Ajusta el tamaño de la fuente */
+    line-height: 1.5; /* Mejora la legibilidad */
+}
+
+.objetivo-card {
+    background-color: #e6f2ff; /* Azul claro, puedes cambiarlo */
+    padding: 15px; /* Reducir padding para hacerlo más compacto */
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40%; /* Reducir el ancho */
+    min-width: 300px; /* Para que no sea demasiado pequeño en pantallas pequeñas */
+}
+
+/* Ajustar tamaño del texto para mejor visibilidad */
+.objetivo-card h3 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.objetivo-card p, .objetivo-card ul {
+    font-size: 0.9rem;
+    color: #444;
+}
