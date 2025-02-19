@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 import Inicio from "./pages/Inicio";
 import Acerca from "./pages/Acerca";
 import Resultados from "./pages/Resultados";
@@ -12,11 +13,12 @@ const App: React.FC = () => {
       <Header />
       <Navigation />
       <Routes>
-        <Route path="/Inicio" element={<Inicio />} />
+        <Route path="/" element={<Inicio />} /> {/* Página de inicio en "/" */}
         <Route path="/acerca" element={<Acerca />} />
         <Route path="/resultados" element={<Resultados />} />
         <Route path="/conclusion" element={<Conclusion />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
