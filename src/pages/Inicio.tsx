@@ -17,7 +17,9 @@ const Inicio: React.FC = () => {
       {/* SECCIÓN CONTENIDO */}
       <section className="contenido justificacion-introduccion">
   <h2>Justificación</h2>
-  <p>La implementación de dinamos en bicicletas estáticas permite generar energía limpia mientras se realiza ejercicio, reduciendo la dependencia de fuentes no renovables.</p>
+  <p>La implementación de dinamos en bicicletas estáticas permite generar energía limpia mientras se realiza ejercicio, reduciendo la dependencia de fuentes no renovables.
+  El aumento del uso de gimnasios después de la pandemia refuerza la viabilidad de integrar tecnología sostenible en estos espacios.</p>
+
 </section>
 
 {/* Separador */}

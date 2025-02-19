@@ -5,27 +5,34 @@ const Acerca = () => {
   return (
     <section className="acerca-container">
 
-      <div className="seccion">
-        <h2>Metodología</h2>
-        <div className="metodologia-contenido">
-          <p>
-            En el proyecto de investigación se aplicó un diseño de investigación “Desing Thinking”, debido a sus múltiples ventajas: empatizar, definir, idear, prototipar y probar; se usa un enfoque de tipo cuantitativo y una metodología aplicada. En una población muestra un gimnasio en la parroquia Ricaurte.</p>
-          <img src="/metodologia1.jpg" alt="Metodologia" />
-        </div>
-      </div>
-
+<div className="seccion">
+  <h2>Metodología</h2>
+  <div className="metodologia-contenido">
+    <p>
+      En el proyecto de investigación se aplicó un diseño de investigación “Design Thinking”, debido a sus múltiples ventajas: empatizar, definir, idear, prototipar y probar; se usa un enfoque de tipo cuantitativo y una metodología aplicada. En una población muestra un gimnasio en la parroquia Ricaurte.
+    </p>
+    <div className="imagen-metodologia">
+      <img src="/metodologia1.jpg" alt="Metodologia" />
+    </div>
+  </div>
+</div>
 
       <div className="seccion">
         <h2>Presupuesto</h2>
-        <img src="/presupuesto.png" alt="Presupuesto" />
-        <p>Presupuesto de materiales utilizados</p>
+        <div className="media-container">
+
+        <img src="/presupuesto1.jpg" alt="Presupuesto" />
+
+        <img src="/presupuestoo.jpg" alt="Presupuesto" />
+        
+      </div>
       </div>
 
       {/* SECCIÓN PROTOTIPO */}
       <div className="seccion">
         <h2>Circuito</h2>
         <div className="media-container">
-        <p>Uso del  Tinkercad para la maquetación del dispositivo electrónico.</p>
+       
          
           <img src="/circuito.png" alt="Circuito" />
           <img src="/Prototipo1.jpg" alt="Circuito" />

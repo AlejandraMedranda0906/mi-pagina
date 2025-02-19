@@ -34,7 +34,7 @@ const Resultados: React.FC = () => {
 
          {/* Imagen 3 */}
          <div>
-          <img src="/resultado3.jpg" alt="Resultado 3" className="slide-image" />
+          <img src="/grafico.jpg" alt="Resultado 3" className="slide-image" />
           <p>Descripción del resultado 2...</p>
         </div>
        
