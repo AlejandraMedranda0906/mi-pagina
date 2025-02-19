@@ -13,12 +13,12 @@ const App: React.FC = () => {
       <Header />
       <Navigation />
       <Routes>
-        <Route path="/" element={<Inicio />} /> {/* Página de inicio en "/" */}
+        <Route path="/Inicio" element={<Inicio />} />
         <Route path="/acerca" element={<Acerca />} />
         <Route path="/resultados" element={<Resultados />} />
         <Route path="/conclusion" element={<Conclusion />} />
       </Routes>
-      <Footer />
+      <Footer /> {/* ✅ Ahora sí está correctamente colocado */}
     </Router>
   );
 };
