@@ -19,6 +19,8 @@ const Inicio: React.FC = () => {
           <p>Secciones adicionales...</p>
         </section>
       </div>
+
+      
     );
   };
 export default Inicio;

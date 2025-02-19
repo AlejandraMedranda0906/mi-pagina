@@ -23,23 +23,27 @@ const Resultados: React.FC = () => {
       <Slider {...settings}>
         {/* Imagen 1 */}
         <div>
-          <img src="/ruta-de-imagen1.jpg" alt="Resultado 1" className="slide-image" />
+          <img src="/resultado1.jpg" alt="Resultado 1" className="slide-image" />
           <p>Descripción del resultado 1...</p>
         </div>
         {/* Imagen 2 */}
         <div>
-          <img src="/ruta-de-imagen2.jpg" alt="Resultado 2" className="slide-image" />
+          <img src="/prototipo1.jpg" alt="Resultado 2" className="slide-image" />
           <p>Descripción del resultado 2...</p>
         </div>
-        {/* Imagen 3 */}
-        <div>
-          <img src="/ruta-de-imagen3.jpg" alt="Resultado 3" className="slide-image" />
-          <p>Descripción del resultado 3...</p>
+
+         {/* Imagen 3 */}
+         <div>
+          <img src="/resultado3.jpg" alt="Resultado 3" className="slide-image" />
+          <p>Descripción del resultado 2...</p>
         </div>
+       
+
+
         {/* Video */}
         <div>
           <video controls className="slide-video">
-            <source src="/ruta-del-video.mp4" type="video/mp4" />
+            <source src="/resultado2.mp4" type="video/mp4" />
             Tu navegador no soporta el video.
           </video>
           <p>Descripción del video...</p>
