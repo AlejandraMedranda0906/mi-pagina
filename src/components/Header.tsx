@@ -14,7 +14,7 @@ const Header: React.FC = () => {
             <li><a href="#">Acerca</a></li>
             <li><a href="#">Resultados</a></li>
             <li><a href="#">Conclusión</a></li>
-            <li><a href="#">Presupuesto</a></li>
+          
           </ul>
         </nav>
         <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>

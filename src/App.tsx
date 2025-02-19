@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
-import Home from "./pages/Home";
+import Home from "./pages/Inicio";
 import Acerca from "./pages/Acerca";
 import Presupuesto from "./pages/Presupuesto";
 import Metodologia from "./pages/Metodologia";
@@ -15,11 +15,8 @@ const App: React.FC = () => {
       <Header />
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Inicio />} />
         <Route path="/acerca" element={<Acerca />} />
-        <Route path="/acerca/presupuesto" element={<Presupuesto />} />
-        <Route path="/acerca/metodologia" element={<Metodologia />} />
-        <Route path="/acerca/galeria" element={<Galeria />} />
         <Route path="/resultados" element={<Resultados />} />
         <Route path="/conclusion" element={<Conclusion />} />
       </Routes>
