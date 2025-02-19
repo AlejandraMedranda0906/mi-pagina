@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import "./Conclusion.css"; // Archivo CSS para estilos
+import "../styles/Header.css";
 
 const Conclusion: React.FC = () => {
 const [mostrarTexto, setMostrarTexto] = useState(false);
