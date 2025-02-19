@@ -13,7 +13,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px; /* Añade un poco de padding en los lados */
   }
+  
   
   .logo {
     font-size: 1.8rem;
