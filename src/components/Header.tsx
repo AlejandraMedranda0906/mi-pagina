@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header: React.FC = () => {
@@ -10,11 +11,10 @@ const Header: React.FC = () => {
         <h1 className="logo">Dinamo</h1>
         <nav className={`nav ${isOpen ? "open" : ""}`}>
           <ul className="nav-links">
-            <li><a href="#" className="active">Inicio</a></li>
-            <li><a href="#">Acerca</a></li>
-            <li><a href="#">Resultados</a></li>
-            <li><a href="#">Conclusión</a></li>
-          
+            <li><Link to="/" className="active">Inicio</Link></li>
+            <li><Link to="/acerca">Acerca</Link></li>
+            <li><Link to="/resultados">Resultados</Link></li>
+            <li><Link to="/conclusion">Conclusión</Link></li>
           </ul>
         </nav>
         <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
