@@ -16,18 +16,18 @@ const Inicio: React.FC = () => {
 
       {/* SECCIÓN CONTENIDO */}
       <section className="contenido justificacion-introduccion">
+  <h2>Justificación</h2>
+  <p>La implementación de dinamos en bicicletas estáticas permite generar energía limpia mientras se realiza ejercicio, reduciendo la dependencia de fuentes no renovables.</p>
+</section>
 
-        <h2>Justificación</h2>
-        <p>La implementación de dinamos en bicicletas estáticas permite generar energía limpia mientras se realiza ejercicio, reduciendo la dependencia de fuentes no renovables. </p>
-        
-      </section>
+{/* Separador */}
+<div className="separador"></div>
 
-      
 <section className="contenido justificacion-introduccion">
-        <h2>Introducción</h2>
-        <p>El  proyecto busca implementar un sistema que produzca energía limpia en los gimnasios a través de un generador colocado en bicicletas estáticas. Esta iniciativa utiliza la energía del movimiento del pedaleo para transformarla en electricidad, ayudando a la sostenibilidad y fomentando la actividad física.</p>
-        
-      </section>
+  <h2>Introducción</h2>
+  <p>El proyecto busca implementar un sistema que produzca energía limpia en los gimnasios a través de un generador colocado en bicicletas estáticas. Esta iniciativa utiliza la energía del movimiento del pedaleo para transformarla en electricidad, ayudando a la sostenibilidad y fomentando la actividad física.</p>
+</section>
+
 
       {/* SECCIÓN OBJETIVOS */}
       <section className="objetivos-container">

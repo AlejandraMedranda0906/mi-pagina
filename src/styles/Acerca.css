@@ -46,21 +46,29 @@
     box-shadow: 2px 2px 10px rgba(13, 221, 40, 0.2);
 }
 
-/* 🔹 Estilos del botón */
 .boton {
     display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
+    padding: 12px 24px;
+    margin: 10px;
     font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
     color: white;
-    background-color: #5fc17b;
+    background-color: #28a745; /* Verde más vibrante */
     border: none;
-    border-radius: 5px;
+    border-radius: 30px; /* Bordes redondeados */
     text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
-    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .boton:hover {
-    background-color: #1a4cad;
+    background-color: #1e7e34; /* Cambio de color en hover */
+    transform: translateY(-3px); /* Efecto sutil de elevación */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.prototipo-container img {
+    border-radius: 25px; /* Bordes más redondeados */
 }

@@ -140,7 +140,7 @@
 }
 
 .objetivo-card {
-    background-color: #e6f2ff; /* Azul claro, puedes cambiarlo */
+    background-color: #b5e197b9; /* Azul claro, puedes cambiarlo */
     padding: 15px; /* Reducir padding para hacerlo más compacto */
     border-radius: 8px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
@@ -159,3 +159,13 @@
     font-size: 0.9rem;
     color: #444;
 }
+
+.separador {
+    width: 50%; /* Reduce el ancho */
+    height: 2px; /* Línea más delgada */
+    background-color: #bbb; /* Color más suave */
+    margin: 20px auto; /* Menos separación */
+    border-radius: 2px; /* Bordes más suaves */
+    opacity: 0.5; /* Más sutil */
+}
+

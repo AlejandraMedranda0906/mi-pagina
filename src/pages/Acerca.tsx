@@ -23,12 +23,12 @@ const Acerca = () => {
 
       {/* SECCIÓN PROTOTIPO */}
       <div className="seccion">
-        <h2>Prototipo</h2>
+        <h2>Circuito</h2>
         <div className="media-container">
         <p>Uso del  Tinkercad para la maquetación del dispositivo electrónico.</p>
          
-          <img src="//circuito.png" alt="Prototipo" />
-          <img src="//Prototipo1.jpg" alt="Prototipo" />
+          <img src="/circuito.png" alt="Circuito" />
+          <img src="/Prototipo1.jpg" alt="Circuito" />
          
         </div>
       </div>
@@ -52,47 +52,44 @@ const Acerca = () => {
 </a>
 
 </div>
-
-      {/* SECCIÓN REPOSITORIO FRONTEND */}
+{/* SECCIÓN PROTOTIPO */}
 <div className="seccion">
-  <h2>Diseño de Figma</h2>
+  <h2>Prototipo</h2>
   
-  <div className="media-container">
-         
-         <img src="/Dinamo3.jpg" alt="Diseño de figma" />
-         <img src="/dinamo2.jpg" alt="Diseño de figma" />
-
-         <img src="/Dinamo1.jpg" alt="Diseño de figma" />
+  <div className="media-container prototipo-container"> {/* Agregamos la clase aquí */}
+    <img src="/Dinamo3.jpg" alt="Prototipo" />
+    <img src="/dinamo2.jpg" alt="Prototipo" />
+    <img src="/Dinamo1.jpg" alt="Prototipo" />
   </div>
+
   <p>Diseño de la aplicación en Figma</p>
+  <p>Para el desarrollo del sistema se usó en React Native con expo Android</p>
+
   <a 
     href="https://www.figma.com/design/bTwn6HMEiWWY18D8kL2EOg/Bicycle-Charge?node-id=0-1&p=f&t=eQlKsCeyHlmLgRxp-0"  
     target="_blank" 
     rel="noopener noreferrer"
     className="boton"
   >
-    Ver Código
+    FIGMA
   </a>
-</div>
 
-
-     
-      {/* SECCIÓN REPOSITORIO FRONTEND */}
-<div className="seccion">
-  <h2>Repositorio de Frontend</h2>
-  <div className="imagenes">
-    <img src="/frontend.jpg" alt="Repositorio de Frontend" />
-  </div>
-  <p>Para el desarrollo del sistema se usó en React Native con expo Android</p>
   <a 
     href="https://github.com/AlejandraMedranda0906/charge-battery.git"  
     target="_blank" 
     rel="noopener noreferrer"
     className="boton"
   >
-    Ver Código
+    FRONTEND
   </a>
+
 </div>
+
+
+
+     
+    
+
     </section>
   );
 };
