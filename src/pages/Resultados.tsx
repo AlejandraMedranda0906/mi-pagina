@@ -24,18 +24,18 @@ const Resultados: React.FC = () => {
         {/* Imagen 1 */}
         <div>
           <img src="/resultado1.jpg" alt="Resultado 1" className="slide-image" />
-          <p>Descripción del resultado 1...</p>
+         
         </div>
         {/* Imagen 2 */}
         <div>
           <img src="/prototipo1.jpg" alt="Resultado 2" className="slide-image" />
-          <p>Descripción del resultado 2...</p>
+         
         </div>
 
          {/* Imagen 3 */}
          <div>
           <img src="/grafico.jpg" alt="Resultado 3" className="slide-image" />
-          <p>Descripción del resultado 2...</p>
+         
         </div>
        
 
@@ -43,10 +43,10 @@ const Resultados: React.FC = () => {
         {/* Video */}
         <div>
           <video controls className="slide-video">
-            <source src="/resultado2.mp4" type="video/mp4" />
-            Tu navegador no soporta el video.
+            <source src="/Resultado2.mp4" type="video/mp4" />
+            
           </video>
-          <p>Descripción del video...</p>
+         
         </div>
       </Slider>
     </div>

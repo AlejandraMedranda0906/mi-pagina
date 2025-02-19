@@ -17,16 +17,6 @@ const Acerca = () => {
   </div>
 </div>
 
-      <div className="seccion">
-        <h2>Presupuesto</h2>
-        <div className="media-container">
-
-        <img src="/presupuesto1.jpg" alt="Presupuesto" />
-
-        <img src="/presupuestoo.jpg" alt="Presupuesto" />
-        
-      </div>
-      </div>
 
       {/* SECCIÓN PROTOTIPO */}
       <div className="seccion">
