@@ -28,7 +28,7 @@ const Resultados: React.FC = () => {
         </div>
         {/* Imagen 2 */}
         <div>
-          <img src="/prototipo1.jpg" alt="Resultado 2" className="slide-image" />
+          <img src="/Prototipo1.jpg" alt="Resultado 2" className="slide-image" />
          
         </div>
 
@@ -40,14 +40,11 @@ const Resultados: React.FC = () => {
        
 
 
-        {/* Video */}
-        <div>
-          <video controls className="slide-video">
-            <source src="/Resultado2.mp4" type="video/mp4" />
+     
             
-          </video>
+       
          
-        </div>
+        
       </Slider>
     </div>
   );
